@@ -61,12 +61,11 @@ def main():
         selected = option_menu(
             menu_title=None,
             options=["Chat", "Upload File", "Contacts"],
-            icons=['chat-right-dots-fill',
-                   'cloud-upload-fill', 'person-rolodex'],
+            icons=['chat-right-dots-fill', 'cloud-upload-fill', 'person-rolodex'],
             menu_icon="cast",
             default_index=0,
             orientation="vertical"
-        )
+    )
 
     user_question = None  # Initialize user_question outside of if statement
 
